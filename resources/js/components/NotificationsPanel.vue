@@ -83,7 +83,7 @@
     top: 0;
     width: 340px;
     height: 100%;
-    background-color: #536170;
+    background-color: #3e91e9;
     padding-bottom: 70px;
   }
 
