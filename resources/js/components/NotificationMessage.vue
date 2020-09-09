@@ -40,7 +40,7 @@
     methods: {
       handleClick() {
         if (this.notification.data.url) {
-          let win = window.open(this.notification.data.url,
+          let win = window.open("https://" + location.hostname + this.notification.data.url,
                   this.notification.data.target || '_blank')
 
           if (win) {

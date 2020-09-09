@@ -1111,7 +1111,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
   methods: {
     handleClick: function handleClick() {
       if (this.notification.data.url) {
-        var win = window.open(this.notification.data.url, this.notification.data.target || '_blank');
+        var win = window.open("https://" + location.hostname + this.notification.data.url, this.notification.data.target || '_blank');
 
         if (win) {
           win.focus();
