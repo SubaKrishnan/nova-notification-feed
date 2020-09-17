@@ -14,7 +14,7 @@
             <img src="https://img.icons8.com/color/32/000000/mamits.png"/>
           </span>
           <span v-if="notification.data.level === 'error'">
-            <img src="https://img.icons8.com/cotton/32/000000/sms-1.png"/>
+            <img src="https://img.icons8.com/flat_round/32/000000/chat.png"/>
           </span>
         </span>
       <div class="table-cell w-full py-4 pl-4">

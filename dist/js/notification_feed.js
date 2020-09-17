@@ -1185,7 +1185,7 @@ var render = function() {
             ? _c("span", [
                 _c("img", {
                   attrs: {
-                    src: "https://img.icons8.com/cotton/32/000000/sms-1.png"
+                    src: "https://img.icons8.com/flat_round/32/000000/chat.png"
                   }
                 })
               ])
