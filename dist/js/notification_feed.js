@@ -1099,6 +1099,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'NotificationMessage',
@@ -1155,6 +1158,16 @@ var render = function() {
                 _c("img", {
                   attrs: {
                     src: "https://img.icons8.com/flat_round/32/000000/chat.png"
+                  }
+                })
+              ])
+            : _vm._e(),
+          _vm._v(" "),
+          _vm.notification.data.level === "success1"
+            ? _c("span", [
+                _c("img", {
+                  attrs: {
+                    src: "https://img.icons8.com/cotton/32/000000/sms-1.png"
                   }
                 })
               ])

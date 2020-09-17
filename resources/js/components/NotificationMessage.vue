@@ -7,6 +7,9 @@
           <span v-if="notification.data.level === 'success'">
             <img src="https://img.icons8.com/flat_round/32/000000/chat.png"/>
           </span>
+          <span v-if="notification.data.level === 'success1'">
+            <img src="https://img.icons8.com/cotton/32/000000/sms-1.png"/>
+          </span>
           <span v-if="notification.data.level === 'info'">
            <img src="https://img.icons8.com/doodle/32/000000/checklist--v1.png"/>
           </span>
