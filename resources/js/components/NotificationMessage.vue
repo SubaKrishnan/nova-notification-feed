@@ -10,10 +10,10 @@
           <span v-if="notification.data.level === 'info'">
            <img src="https://img.icons8.com/doodle/32/000000/checklist--v1.png"/>
           </span>
-          <span v-else-if="notification.data.level === 'warning'">
+          <span v-if="notification.data.level === 'warning'">
             <img src="https://img.icons8.com/color/32/000000/mamits.png"/>
           </span>
-          <span v-else-if="notification.data.level === 'error'">
+          <span v-if="notification.data.level === 'error'">
             <img src="https://img.icons8.com/cotton/32/000000/sms-1.png"/>
           </span>
         </span>
